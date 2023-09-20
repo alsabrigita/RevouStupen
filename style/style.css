@@ -1,0 +1,351 @@
+body{
+  font-family: "lato";
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar{
+  position: sticky;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+
+.icons div,
+.icons a {
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  color: var(--black);
+  cursor: pointer;
+  text-decoration: none;
+}
+.icons div:hover,
+.icons a:hover {
+  color: #515051;
+}
+
+.nav-item {
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.banner {
+    background-image: url(https://img.freepik.com/free-photo/cyber-monday-sale-shopping-cart-copy-space_23-2148670011.jpg?w=1380&t=st=1695052094~exp=1695052694~hmac=7a0684d4be06d358b04340055cbd0fd5f2d6ae173045a659509a8539a527e13f);
+    background-size: cover;
+    padding-bottom: 5rem;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+  }
+  .lead {
+    font-size: 1rem;
+    line-height: 2;
+    color: white;
+  }
+  .jumbotron {
+    padding-top: 5rem;
+  }
+
+.wraper .display-2{
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+/* jumbotrondark */
+.jumbotrondark {
+    background-image: url(https://img.freepik.com/free-photo/cyber-monday-sale-shopping-cart-copy-space_23-2148670011.jpg?w=1380&t=st=1695053678~exp=1695054278~hmac=a5985049f36898ae012d5b09cc8c2a48774a592ff83240db5e4c5505964f3d51);
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    background-size: cover;
+  }
+  
+  .teks1 h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .kotak1 {
+    padding-top: 80px;
+  }
+  .kotak2 {
+    padding-top: 80px;
+    height: 430px;
+  }
+
+  /* testimoni */
+.profile img {
+    width: 120px;
+    margin: auto;
+    justify-content: center;
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .display-3 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .slidee {
+    background-color: #fff;
+    outline: auto;
+    outline-color: #181a19;
+    width: 70%;
+    height: 300px;
+    border-radius: 1rem;
+    overflow: hidden;
+    justify-content: center;
+    margin: auto;
+  }
+  .testteks {
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+
+  /* footer */
+.footer {
+    background: #181a19;
+    margin-top: 5rem;
+  }
+  .footer .footer-link {
+    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  .footer .footer-link:hover {
+    color: #515051 !important;
+  }
+  .footer-social i:hover {
+    color: #515051;
+  }
+  .footer a i {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 0 1rem;
+  }
+
+@media (min-width: 768px) {
+    .previtem {
+      width: 15%;
+      margin-left: -7rem;
+    }
+    .nextitem {
+      width: 15%;
+      margin-right: -7rem;
+    }
+  }
+
+  /* ================== About================ */
+  /*ABOUT SECTION*/
+
+.about .about-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.about .about-section {
+  width: 100%;
+  padding: calc(5% + 30px) 0px;
+  display: flex;
+  margin: auto;
+}
+
+.about .about-section .img-banner {
+  position: relative;
+}
+
+.about .about-section .img-banner img {
+  width: 100%;
+}
+
+.about .about-section .text-head {
+  font-size: 28px;
+}
+
+.about .about-section .break-small {
+  width: 80px;
+  height: 3px;
+  background-color: black;
+}
+
+/*Content Box*/
+
+.about .box {
+  text-align: center;
+  background-color:black;
+  color: #fff;
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about .box h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.about .box i {
+  font-size: 40px;
+}
+
+.about .box p {
+  font-size: 1rem;
+  color: whitesmoke;
+}
+
+/*HOME*/
+
+/*BANNER*/
+.about .banner_section {
+  background: url('https://img.freepik.com/free-photo/cyber-monday-retail-sales_23-2148688493.jpg?w=1380&t=st=1695091631~exp=1695092231~hmac=fcc0da55db846413b24604bd0b50c756506839bca25bf4f72ded9284e0264bf0');
+  background-size: cover;
+  background-position: center;
+  padding-top: 17rem;
+  padding-bottom: 10rem;
+}
+
+.about .banner_section .banner-content h1{
+  font-weight: bold;
+
+}
+
+/* ================shop=============== */
+/*BANNER*/
+.shop .banner_section {
+  background: url('https://img.freepik.com/free-photo/shopping-concept-close-up-portrait-young-beautiful-attractive-redhair-girl-smiling-looking-camera_1258-119090.jpg?w=1380&t=st=1695094493~exp=1695095093~hmac=920f7198d8496e31a1499f4f5557a535b6f4b100730e061f26132e09c254d869');
+  background-size: cover;
+  background-position: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.shop .banner_section .banner-content h1{
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Titan One';
+
+}
+
+.shop .display-2{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.shop .card-body a{
+  text-decoration: none;
+  color: #181a19;
+}
+.shop .card-body .btn{
+  color: #fff;
+  margin-left: 7rem;
+
+}
+
+/* =========detail========= */
+/* book image*/
+.detail .stick-box {
+  height: 96vh;
+}
+
+.detail .box-child {
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(146, 146, 146, 0.8);
+  max-width: 345px;
+  border-radius: 10px;
+  position: sticky;
+  top: 100px;
+}
+
+.detail .box-child .img-box {
+  text-align: center;
+  max-height: 345px;
+  padding: 20px;
+}
+
+.detail .box-child .img-box img {
+  width: 100%;
+  max-height: 305px;
+  text-align: center;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+/*end of book image*/
+
+/*isi buku */
+.detail .box h1 {
+  font-size: 30pt;
+  margin-bottom: 30px;
+}
+.detail .box .line {
+  background-color: #eaeaea;
+  height: 2px;
+  width: 60%;
+  margin-left: 10px;
+  margin-top: -5px;
+}
+
+.detail .box p {
+  margin-top: 20px;
+}
+
+.detail .navbar-book {
+  display: flex;
+}
+
+.detail .navbar-book li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.detail .navbar-book li a {
+  text-decoration: none;
+  color: black;
+}
+
+.detail .desc h3 {
+  margin-top: 5px;
+}
+
+.detail .desc p {
+  margin-top: -10px;
+  font-size: 12pt;
+}
+
+.detail .detail h4 {
+  font-size: 10pt;
+  margin: 0;
+  color: #6d6d6d;
+}
+
+.detail .detail p {
+  font-size: 12pt;
+  font-weight: 500;
+}
+
+@media (max-width: 868px) {
+
+  .detail .box .tombol {
+    margin-left: 0;
+  }
+
+}
+
+/*end isi buku*/

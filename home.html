@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--Favicon-->
+    <link rel="icon" href="https://mail.google.com/mail/u/0?ui=2&ik=9b4aa09543&attid=0.1.1&permmsgid=msg-f:1776085352223816229&th=18a5ec37be133a25&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ8_pwwy81kIU-6cePiMSZGIjgleHzp14f7Q8BBiy9Vp5BIFvtSJWQfBzr0WbJe1XP20hJaef0gNGQ5MPYPy4uM5L9m-FIp7HpXiv3Mkaa5Yi2lQrh8YAYmSkVw&disp=emb" type="image/gif" sizes="16x16">
+
+    <title>NayaNika</title>
+
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">NayaNika</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="/shop.html">Shop</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="jumbotron">
+              <h1 class="display-4">NayaNika</h1>
+              <p class="lead">
+                We Try To Provide A High Quality Products To Our Customer 
+              </p>
+              <hr class="my-4" />
+              <p>It uses utility classes for typography</p>
+              <a class="btn btn-dark btn-lg" href="#" role="button"
+                >Shop Now</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!-- new arivals -->
+   <div class="container wraper">
+    <div class="row text-center mt-5 mb-3">
+      <div class="col">
+        <h1 class="display-2" href="#"><i class="bi bi-book"></i> New Arrivals</h1>
+      </div>
+    </div>
+    <div class="carousel2">
+      <div id="carouselExampleIntervalarrival" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="assets/tas.jpg" class="img-fluid rounded-start" alt="card-img-top">
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Tas Tenun</h5>
+                        <div class="price">Rp800.000 <span></span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/book-2.png" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp60.000 <span>Rp55.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/book-3.png" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp40.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/book-4.png" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp40.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/book-5.png" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp40.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3 mx-auto d-block" style="max-width: 300px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/book-6.png" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp45.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/roman1.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp40.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/horror6.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp45.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card mb-3" style="max-width: 540px">
+                  <div class="row g-0">
+                    <div class="col-md-4">
+                      <img src="image/roman9.jpg" class="img-fluid rounded-start" alt="..." />
+                    </div>
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <div class="price">Rp50.000 <span>Rp40.000</span></div>
+                        <div class="stars">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star-half-alt"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev previtem" type="button" data-bs-target="#carouselExampleIntervalarrival" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next nextitem" type="button" data-bs-target="#carouselExampleIntervalarrival" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- last new arivals -->
+
+  <!-- book of romance -->
+  <div class="jumbotrondark jumbotron-fluid mt-5">
+    <div class="container justify-content-center">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="kotak1">
+            <img src="" alt="" />
+            <div class="teks1">
+              <h1> Top Items</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, rerum aspernatur culpa repellendus nostrum voluptas enim vero nihil est cum harum eligendi! Accusantium earum dolorem reprehenderit, veritatis voluptates consequuntur architecto.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="kotak2">
+            <div class="col-image">
+              <div class="mb-3" style="max-width: 700px">
+                <div class="row rows-md-4 g-0">
+                  <div class="col">
+                    <img src="https://fjallraven.co.id/cdn/shop/products/Kanken_23510-243_03.jpg?v=1691682336&width=1946" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col ps-5">
+                    <img src="" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                  <div class="col ps-5">
+                    <img src="" class="img-fluid rounded-start" alt="..." />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- testimoni -->
+  <div class="container-fluid testimoni">
+    <div class="row text-center mb-3">
+      <div class="col">
+        <h1 class="display-3" href="#"><i class="bi bi-book"></i> testimonial</h1>
+      </div>
+    </div>
+    <div class="container slidee">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner profile">
+          <div class="carousel-item center active">
+            <img src="https://img.freepik.com/free-photo/vertical-shot-handsome-pensive-unshaven-young-male-keeps-hands-pressed-together-looks-pensively-upwards-dressed-elegant-denim-shirt-isolated-pink-wall-with-copy-space-aside_273609-15897.jpg?w=826&t=st=1695092382~exp=1695092982~hmac=ff36a6b67b217ace61d5e28a7062f2fd0834099452d5ee40b4d16949dcfe6522" alt="profil" width="100" class="rounded-circle img-thumbnail justify-conten-center profilee" />
+            <div class="testteks">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias rem consequuntur, dolores ipsam eum commodi cupiditate veritatis nihil neque vero obcaecati totam ea quos illum aliquid adipisci odio doloribus maiores.</div>
+          </div>
+          <div class="carousel-item center">
+            <img src="https://img.freepik.com/free-photo/vertical-shot-handsome-pensive-unshaven-young-male-keeps-hands-pressed-together-looks-pensively-upwards-dressed-elegant-denim-shirt-isolated-pink-wall-with-copy-space-aside_273609-15897.jpg?w=826&t=st=1695092382~exp=1695092982~hmac=ff36a6b67b217ace61d5e28a7062f2fd0834099452d5ee40b4d16949dcfe6522" alt="profil" width="100" class="rounded-circle img-thumbnail justify-conten-center profilee" />
+            <div class="testteks">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem pariatur nostrum expedita sed, quibusdam provident qui architecto, ad quis eos omnis praesentium? Exercitationem harum ratione saepe nam fugit impedit at.</div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/vertical-shot-handsome-pensive-unshaven-young-male-keeps-hands-pressed-together-looks-pensively-upwards-dressed-elegant-denim-shirt-isolated-pink-wall-with-copy-space-aside_273609-15897.jpg?w=826&t=st=1695092382~exp=1695092982~hmac=ff36a6b67b217ace61d5e28a7062f2fd0834099452d5ee40b4d16949dcfe6522" alt="profil" width="100" class="rounded-circle img-thumbnail justify-conten-center profilee" />
+            <div class="testteks">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum animi reiciendis placeat corporis amet neque sint perspiciatis maxime rerum? Saepe cupiditate eius repellat at pariatur magni odit laboriosam voluptate quod!</div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icons" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icons" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- last testimoni -->
+
+  <footer id="footer">
+    <div class="footer py-5">
+      <div class="">
+        <div class="">
+          <div class="col-md-12 text-center">
+            <a class="footer-link" href="#">Register</a>
+            <a class="footer-link" href="#">testimoni</a>
+            <a class="footer-link" href="#">blogs</a>
+            <a class="footer-link" href="#">FAQ</a>
+            <div class="footer-social pt-4 text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="https://api.whatsapp.com/send?phone=085647918559"><i class="fab fa-whatsapp"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="footer-copy">
+              <div class="copy-right text-center pt-5">
+                <p class="text-light">© 2023. NayaNika. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- last book of romance -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
